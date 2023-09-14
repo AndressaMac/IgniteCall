@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   pageExtensions: ['page.tsx', 'api.ts', 'api.tsx'],
+  pagesDir: './pages',
 }
 
 module.exports = nextConfig
